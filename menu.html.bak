@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Menu</title>
+<link rel="stylesheet" href="menu.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+        .box{
+		bgcolor:brown;
+		width:750px;
+		float:right;
+		boarder:1px solid none;
+		}
+		.box ul li{
+		     width:140px;
+			 float:left;
+			 margin:1px auto;
+			 text-align:center;}
+		.box a{
+		text-decoration:none;
+		color:black;}
+	    .box li a::after{
+		content:'';
+		width:0;
+		height:3px;
+		background-color:brown;
+		margin:auto;
+		display:block;
+		}
+		.box li a:hover::after{
+		width:85%;
+		transition:width 0.3s linear;
+		}
+		.box li a:hover{
+		color:brown;
+		}
+</style>
+</head>
+<body bgcolor=#F7EBD3>
+<img src="./images/logo.png" width=90 height=90>
+<div class="box">
+    <ul>
+		 <li><h3><a href=".\home.html">Home</a></h3></li>   
+		 <li><h3><a href=".\menu.html">Menu</a></h3></li> 
+		 <li><h3><a href=".\about_us.html">About Us</a></h3></li> 
+		 <li><h3><a href=".\contact.html">Contact</a></h3></li> 
+		 <li><h3><a href=".\book_table.html">Book A Table</a></h3></li> 
+	</ul>
+</div>
+<div id="menu">
+    <h1 id="section"><u>Menu</h1></u>
+<div id="menu_row">
+   <div id="menu_col">
+   <h2>Breakfast</h2>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\b_eggplant.jpg">
+</div>
+<div>
+   <h3>Egg Plant</h3>
+<h4>Rs100</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\b_bread.jpg">
+</div>
+<div>
+   <h3>Bread with Butter</h3>
+<h4>Rs70</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\b_tacos.jpg">
+</div>
+<div>
+   <h3>Tacos</h3>
+<h4>Rs80</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\b_brown.jpg">
+</div>
+<div>
+   <h3>Brown Bread</h3>
+<h4>Rs50</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\b_tortilla-chips.jpg">
+</div>
+<div>
+   <h3>Tortilla Chips</h3>
+<h4>Rs80</h4>
+</div>
+</div>
+</div>
+<div id="menu_col">
+   <h2>Lunch</h2>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\l_focaccia_bread.png">
+</div>
+<div>
+   <h3>Focaccia Bread</h3>
+<h4>Rs200</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\l_rice.png">
+</div>
+<div>
+   <h3>Fried Rice</h3>
+<h4>Rs250</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\l_polenta.png">
+</div>
+<div>
+   <h3>Polenta</h3>
+<h4>Rs150</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\l_sandwitch.jpg">
+</div>
+<div>
+   <h3>Sushi</h3>
+<h4>Rs140</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\l_prawns-with-green-lettuce.jpg">
+</div>
+<div>
+   <h3>prawns with lettuce</h3>
+<h4>Rs170</h4>
+</div>
+</div>
+</div>
+<div id="menu_col">
+   <h2>Dinner</h2>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\d_pizza.jpg">
+</div>
+<div>
+   <h3>Pizza</h3>
+<h4>Rs240</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\d_noddles.jpg">
+</div>
+<div>
+   <h3>Noodles</h3>
+<h4>RS290</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\d_barbecue.jpg">
+</div>
+<div>
+   <h3>Barbecue Roast</h3>
+<h4>Rs250</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\d_chicken-legs.jpg">
+</div>
+<div>
+   <h3>Chicken Legs</h3>
+<h4>Rs220</h4>
+</div>
+</div>
+<div class="boxm">
+   <div id="image">
+   <img src=".\foods\d_burger.jpg">
+</div>
+<div>
+   <h3>Cheese Burger</h3>
+<h4>Rs150</h4>
+</div>
+</div>
+</div>
+</div>
+</div
+</body>
+</html>

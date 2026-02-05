@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page</title>
+<link rel="stylesheet" href="menu.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+        .box{
+		bgcolor:brown;
+		width:750px;
+		float:right;
+		boarder:1px solid none;
+		}
+		.box ul li{
+		     width:140px;
+			 float:left;
+			 margin:1px auto;
+			 text-align:center;}
+		.box a{
+		text-decoration:none;
+		color:black;}
+	    .box li a::after{
+		content:'';
+		width:0;
+		height:3px;
+		background-color:brown;
+		margin:auto;
+		display:block;
+		}
+		.box li a:hover::after{
+		width:85%;
+		transition:width 0.3s linear;
+		}
+		.box li a:hover{
+		color:brown;
+		}
+		.kk
+		{border:5px outset brown;
+		width:300px;
+		background:#98BF64;
+		padding:50px;
+		margin:20px;
+		text-align:center;
+		}
+</style>
+</head>
+<body bgcolor=#F7EBD3>
+<img src="./images/logo.png" width=90 height=90>
+<div class="box">
+    <ul>
+		 <li><h3><a href="D:\2nd_year\Restaurant\home.html">Home</a></h3></li>   
+		 <li><h3><a href="D:\2nd_year\Restaurant\menu.html">Menu</a></h3></li> 
+		 <li><h3><a href="D:\2nd_year\Restaurant\about_us.html">About Us</a></h3></li> 
+		 <li><h3><a href="D:\2nd_year\Restaurant\contact.html">Contact</a></h3></li> 
+		 <li><h3><a href="D:\2nd_year\Restaurant\book_table.html">Book A Table</a></h3></li> 
+	</ul>
+</div><br><br><br><br><br><br>
+<center><div class="kk">
+<p><center><h1><u>Your Message is sent<br>Thank You!!!</h1></center></p></u>
+</div></center>
+</body>
+</html>

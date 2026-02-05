@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE_edge">
+<title>Event_Booking</title>
+<meta name="viewpoint" content="width=divce-width, initial-scale=1">
+<link rel="stylesheet" href="event.css">
+<style>
+        body{
+		font-family:latha;
+		color:white;
+        background:linear-gradient(
+		rgba(0,0,0,0.75),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
+		),
+		url(D:/2nd_year/Restaurant/images/background_event.png)no-repeat;
+		background-size:cover;
+		}
+               .box{
+		bgcolor:brown;;
+		width:750px;
+		float:right;
+		boarder:1px solid none;
+		}
+		.box ul li{
+		     width:140px;
+			 float:left;
+			 margin:1px auto;
+			 text-align:CENTER;}
+		.box ul li a {text-decoration:none;
+		color:white;}
+	    .box ul li:hover{background-color:brown;}
+		.box ul li a:hover{color:#98BF64;}
+</style>
+</head>
+<body bgcolor=#F7EBD3>
+<img src="./images/logo.png" width=90 height=90>
+<div class="box">
+    <ul>
+	<li><h3><a href=".\home.html">Home</a></h3></li>   
+		 <li><h3><a href=".\menu.html">Menu</a></h3></li> 
+		 <li><h3><a href=".\about_us.html">About Us</a></h3></li> 
+		 <li><h3><a href=".\contact.html">Contact</a></h3></li> 
+		 <li><h3><a href=".\book_table.html">Book A Table</a></h3></li> 
+	</ul>
+</div>
+<br><br><br>
+<section class="banner">
+<h2><u>BOOK For A Event</h2></u>
+<div class="card-container">
+<div class="card-img">
+</div>
+<div class="card-content">
+<h3>Event Booking</h3>
+<form action="oo.html">
+<div class="form-row">
+<select name="days">
+<option value="day-select">Select Day</option>
+<option value="sunday">Sunday</option>
+<option value="monday">Monday</option>
+<option value="tuesday">Tuesday</option>
+<option value="wednesday">Wednesday</option>
+<option value="thursday">Thursday</option>
+<option value="friday">Friday</option>
+<option value="saturday">Saturday</option>
+</select>
+<select name="hours">
+<option value="hours-select">Select Hours</option>
+<option value="10">12:00</option>
+<option value="10">13:00</option>
+<option value="10">14:00</option>
+<option value="10">15:00</option>
+<option value="10">18:00</option>
+<option value="10">19:00</option>
+<option value="10">20:00</option>
+<option value="10">21:00</option>
+<option value="10">22:00</option>
+</select>
+</div>
+<div class="form-row">
+<input type="text" placeholder="Full Name">
+<input type="text" placeholder="Phone Number">
+</div>
+<div class="form-row">
+<input type="number" placeholder="Time Duration in Hrs" min="1">
+<input type="text" placeholder="Email Id">
+</div>
+<div class="form-row">
+<input type="text" placeholder="Kind of Event">
+<input type="text" placeholder="Home Address">
+</div>
+<div class="form-row">
+<input type="number" placeholder="No.Of Guests" min="1">
+<input type="text" placeholder="Locality">
+</div>
+<div class="form-row">
+<input type="submit" value="Book">
+</div>
+</div>
+</div>
+</form>
+<p style="color:white">For more details please contact +918604869485</p>
+</div>
+</section>
+</body>
+</html>

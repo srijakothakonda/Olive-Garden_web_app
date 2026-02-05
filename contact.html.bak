@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link rel="stylesheet" href="contact.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+        .box{
+		bgcolor:brown;
+		width:750px;
+		float:right;
+		boarder:1px solid none;
+		}
+		.box ul li{
+		     width:140px;
+			 float:left;
+			 margin:1px auto;
+			 text-align:center;}
+		.box a{
+		text-decoration:none;
+		color:black;}
+	    .box li a::after{
+		content:'';
+		width:0;
+		height:3px;
+		background-color:brown;
+		margin:auto;
+		display:block;
+		}
+		.box li a:hover::after{
+		width:85%;
+		transition:width 0.3s linear;
+		}
+		.box li a:hover{
+		color:brown;
+		}
+</style>
+</head>
+<body bgcolor=#F7EBD3>
+<img src="./images/logo.png" width=90 height=90>
+<div class="box">
+    <ul>
+		 <li><h3><a href="D:\2nd_year\Restaurant\home.html">Home</a></h3></li>   
+		 <li><h3><a href="D:\2nd_year\Restaurant\menu.html">Menu</a></h3></li> 
+		 <li><h3><a href="D:\2nd_year\Restaurant\about_us.html">About Us</a></h3></li> 
+		 <li><h3><a href="D:\2nd_year\Restaurant\contact.html">Contact</a></h3></li> 
+		 <li><h3><a href="D:\2nd_year\Restaurant\book_table.html">Book A Table</a></h3></li>  
+	</ul>
+</div>
+<div class="container">
+<br><br><center><h1><u>Connect & Inquiry</u></h1>
+<p>We would love to respond to your queries.</p><br></center>
+<div class="contact-box">
+<div class="contact-left">
+<h3>Sent your Inquiries Or Responses</h3>
+<form action="submit.html">
+<div class="input-row">
+<div class="input-group"
+<label>Name</label>
+<input type="text" placeholder="john amendo">
+</div>
+<div class="input-group">
+<label>Phone</label>
+<input type="text" placeholder="+91 9000563376">
+</div>
+</div>
+<div class="input-row">
+<div class="input-group"
+<label>Email</label>
+<input type="email" placeholder="johnamendo@gmail.com">
+</div>
+<div class="input-group">
+<label>Subject</label>
+<input type="text" placeholder="Product demo">
+</div>
+</div>
+
+<label>Message</label>
+<textarea rows="5" cols="20" placeholder="Your Message"></textarea>
+<button type="submit"><b>Send</button></b>
+</form>
+</div>
+<div class="contact-right">
+<h3><b>Reach Us</b></h3>
+<table>
+<tr>
+<td>Email<br></td>
+<td>olivegarden@gmail.com</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>+91 8596849685</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>212,Olive building,7th road,
+Gachibowli,Telangana 5000001</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

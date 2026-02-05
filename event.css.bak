@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600&display=swap');
+.banner
+{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	font-family:'poppins',sans-serif;
+	min-height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:black;
+	padding-bottom:20px;
+}
+.card-container
+{
+	display:grid;
+	grid-template-columns:500px 500px;
+}
+.card-img{
+	background:url("D:/2nd_year/Restaurant/images/event.png")center/cover no-repeat;
+}
+.banner h2
+{
+	padding-bottom:40px;
+	margin-bottom:20px;
+	color:white;
+}
+.card-content
+{
+	background:white;
+	height:530px;
+}
+.card-content h3
+{
+	text-align:center;
+	color:black;
+	padding:25px 0 10px 0;
+	font-size:26px;
+	font-weight:500;
+}
+.form-row
+{
+	display:flex;
+	width:90%
+	margin:0 auto;
+}
+form select,form 
+input
+{
+	display:black;
+	width:100%;
+	margin:15px 12px;
+	padding:5px;
+	font-size:15px;
+	font-family:'poppins',sans-serif;
+	outline:none;
+	border:none;
+	border-bottom:1px solid #eee;
+	font-weight:300;
+	color:#9a9a9a;
+}
+form input[type=text],
+form input[type=number],
+form input :: placeholder,select{
+color:#9a9a9a;
+}
+form input[type=submit]
+{
+	color:white;
+	background:#f2745f;
+	padding:12px 0;
+	border-radius:4px;
+	cursor:pointer;
+}
+form input[type=submit]:hover{
+	opacity:0.9;
+}
