@@ -7,6 +7,7 @@ Olive Garden is a modern restaurant management and booking website developed to 
 The project aims to improve customer convenience while helping restaurants manage bookings efficiently through a digital platform.
 
 ---
+## Demo Link:https://srijakothakonda.github.io/Olive-Garden_web_app/
 
 ## 🚀 Features
 
@@ -181,3 +182,6 @@ Result:
 ## 📌 Conclusion
 
 The Olive Garden Restaurant Management & Booking Website provides a simple and efficient solution for restaurant-customer interaction. Through online reservations, event booking, menu browsing, and contact facilities, the system enhances customer convenience and improves restaurant service management.
+
+
+
