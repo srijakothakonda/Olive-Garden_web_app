@@ -169,13 +169,7 @@ Result:
 * Enhances customer experience
 * Provides digital convenience
 
----
 
-## 👨‍💻 Team Members
-
-* A. Anjali – Frontend Development & UI Design
-* K. Srija – Backend Development & Authentication
-* G. Sandeep – Database, Deployment & Testing
 
 ---
 
